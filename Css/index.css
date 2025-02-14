@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    color:white ;
+    background-color:black ;
+}
+
+h4
+{
+    color:red;
+}
+.c1{
+    margin: auto;
+    width: 70%;
+    border: red  solid;
+    background-color: yellowgreen;
+}
+.c3 ul
+{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+}
+.logo{
+    cursor: pointer;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: red;
+    margin-right:auto ;
+}
+.c4{
+    list-style: none;
+    font-family: "Roboto";
+    color: white;
+}
+.c4 li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.c4 li a{
+    transition: 0.5s;
+    font-size: 15px;
+}
+.c4 li a.active{
+    color: red;
+}
+.c4 li a:hover{
+    color: red;
+}
+.action{
+padding: 9px 20px;
+background-color: red;
+border-radius: 50px;
+}
+.action:hover{
+    box-shadow: 5px 7px 9px;
+}
+.c2 img{
+    border-radius: 50px;
+}
+.c2 img:hover{
+    box-shadow: 5px 6px 8px 9px aqua;
+}
+.kk{
+    color: red;
+}
